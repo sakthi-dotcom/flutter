@@ -55,10 +55,6 @@ class _MyAppState extends State<MyApp> {
               backgroundColor: Colors.red,
               label: "NOtification"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              backgroundColor: Colors.red,
-              label: "Settings"),
-          BottomNavigationBarItem(
               icon: Icon(Icons.person),
               backgroundColor: Colors.red,
               label: "Profile"),
