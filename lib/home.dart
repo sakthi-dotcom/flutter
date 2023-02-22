@@ -34,7 +34,6 @@ class _MyAppState extends State<MyApp> {
           title,
           style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
         ),
-        automaticallyImplyLeading: false,
       ),
       body: tabs[index],
       bottomNavigationBar: BottomNavigationBar(
