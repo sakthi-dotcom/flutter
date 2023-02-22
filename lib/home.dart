@@ -38,8 +38,9 @@ class _MyAppState extends State<MyApp> {
       ),
       body: tabs[index],
       bottomNavigationBar: BottomNavigationBar(
-
+        type: BottomNavigationBarType.fixed,
         currentIndex: index,
+        selectedItemColor: Colors.red,
         items: [
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
